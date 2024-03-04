@@ -34,16 +34,13 @@ function Landingpage() {
       <>
       <div className="relative w-screen h-screen">
         {
-          init ? (
+          init && (
             <Particles id="tsparticles" options={herobanneroption} className="absolute inset-0">
         </Particles>
-          ) :(
-            <div className="absolute inset-0 w-full h-full bg-black">
-
-            </div>
           )
+
         }
-        <div className="absolute w-screen h-auto flex flex-col items-center justify-center">
+        <div className={`absolute w-screen h-auto flex flex-col items-center justify-center  ${init? "" : "bg-black"}`}>
         <Herobanner />
         <HackInfo />
         <Theme />

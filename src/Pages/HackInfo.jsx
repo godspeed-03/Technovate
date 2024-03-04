@@ -17,7 +17,7 @@ function HackInfo() {
   return (
     <>
     <Tilt
-          className="Tilt"
+          className="Tilt bg-black"
           style={{
             transformStyle: "preserve-3d",
           }}
