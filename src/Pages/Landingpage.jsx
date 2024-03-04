@@ -27,7 +27,7 @@ function Landingpage() {
     if(setInit){
       setTimeout(() => {
         setParticle(true);
-      }, 5000);
+      }, 2000);
     }
 
   },[])
