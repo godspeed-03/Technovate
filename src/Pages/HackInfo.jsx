@@ -52,15 +52,19 @@ function HackInfo() {
           />
         </div>
         <div className="content w-2/3 flex flex-col items-start justify-center gap-10">
-          <h1>Hackethon nameeeee</h1>
+          <h1>Technovate</h1>
           <p>Dive into an immersive experience where your ideas hold the power to shape the future. Our inclusive hackathon invites developers, innovators, and thinkers from diverse backgrounds to come together for an exhilarating challenge. At Technovate,we are calling for solutions that are sustainable, innovative, and have the potential to redefine our world. Join us in this journey of creation, collaboration, and celebration.</p>
           <div className="location flex items-center justify-center gap-5">
+            <a href="https://maps.app.goo.gl/duEYT9VECn531GSt6" target='_blank'>
           <Lottie
             options={defaultOptionslocation}
             height={80} // Adjust height as needed
             width={80} // Adjust width as needed
           />
-          <span className='pt-5'>UIET, Panjab University, Chandigarh</span>
+          </a>
+          <a className='pt-5' href="https://maps.app.goo.gl/duEYT9VECn531GSt6" target='_blank'>
+          <span >UIET, Panjab University, Chandigarh</span>
+          </a>
           </div>
         </div>
       </div>
