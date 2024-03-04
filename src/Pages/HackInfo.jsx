@@ -2,7 +2,7 @@ import React from 'react'
 import './hackinfo.css'
 import { Tilt } from "react-tilt";
 import Lottie from 'react-lottie';
-import animationData from '../assets/Animation - 1709495053289.json';
+import animationData from '../assets/Infoanimation.json';
 import locationanimation from '../assets/locat.json'
 // import WordCloud2 from './WordCloud'
 
