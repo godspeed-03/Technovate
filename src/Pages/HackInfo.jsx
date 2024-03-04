@@ -3,10 +3,11 @@ import './hackinfo.css'
 import { Tilt } from "react-tilt";
 import Lottie from 'react-lottie';
 import animationData from '../assets/Animation - 1709495053289.json';
+import locationanimation from '../assets/locat.json'
 // import WordCloud2 from './WordCloud'
 
 function HackInfo() {
-    const defaultOptions = {
+    const defaultOptionsimg = {
         loop: true,
         autoplay: true,
         animationData: animationData,
@@ -14,10 +15,21 @@ function HackInfo() {
           preserveAspectRatio: 'xMidYMid slice'
         }
       };
+
+      const defaultOptionslocation = {
+        loop: true,
+        autoplay: true,
+        animationData: locationanimation,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
   return (
     <>
+    
+    <div className="z-10 flex justify-center items-center py-16">
     <Tilt
-          className="Tilt"
+          className="Tilt flex items-center justify-center"
           style={{
             transformStyle: "preserve-3d",
           }}
@@ -31,11 +43,10 @@ function HackInfo() {
             scale: 1,
           }}
         >
-    <div className="z-10 flex justify-center items-center py-16">
-    <div className="info rounded-xl relative bg-black p-14 w-[60%] h-auto  flex gap-10 text-white">
+    <div className="info rounded-xl relative bg-black w-[60%] h-auto p-14  flex gap-10 text-white">
     <div className="gif flex w-1/3 items-center justify-center">
           <Lottie
-            options={defaultOptions}
+            options={defaultOptionsimg}
             height={300} // Adjust height as needed
             width={300} // Adjust width as needed
           />
@@ -43,10 +54,18 @@ function HackInfo() {
         <div className="content w-2/3 flex flex-col items-start justify-center gap-10">
           <h1>Hackethon nameeeee</h1>
           <p>Dive into an immersive experience where your ideas hold the power to shape the future. Our inclusive hackathon invites developers, innovators, and thinkers from diverse backgrounds to come together for an exhilarating challenge. At Technovate,we are calling for solutions that are sustainable, innovative, and have the potential to redefine our world. Join us in this journey of creation, collaboration, and celebration.</p>
+          <div className="location flex items-center justify-center gap-5">
+          <Lottie
+            options={defaultOptionslocation}
+            height={80} // Adjust height as needed
+            width={80} // Adjust width as needed
+          />
+          <span className='pt-5'>UIET, Panjab University, Chandigarh</span>
+          </div>
         </div>
       </div>
-    </div>
     </Tilt>
+    </div>
     </>
   )
 }

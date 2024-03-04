@@ -8,6 +8,7 @@ import { herobanner } from '../Utils/Backgroundtype';
 import HackInfo from './HackInfo';
 import Theme from './Theme';
 import EligibilityCriteria from './EligibilityCriteria';
+import Mission from './Mission';
 
 function Landingpage() {
 
@@ -55,6 +56,7 @@ function Landingpage() {
         <HackInfo />
         <Theme />
         <EligibilityCriteria />
+        <Mission />
         </div>
       </div>
       
