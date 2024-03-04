@@ -12,6 +12,7 @@ import EligibilityCriteria from './EligibilityCriteria';
 function Landingpage() {
 
   const [init, setInit] = useState(false);
+  const [particle, setParticle] = useState(false)
 
   // this should be run only once per application lifetime
   useEffect(() => {
@@ -21,6 +22,15 @@ function Landingpage() {
       setInit(true);
     });
   }, []);
+
+  useEffect(() =>{
+    if(setInit){
+      setTimeout(() => {
+        setInit(true);
+      }, 5000);
+    }
+
+  },[])
 
   const herobanneroption = useMemo(
     () => (
@@ -35,12 +45,12 @@ function Landingpage() {
       <div className="relative w-screen h-screen">
         {
           init && (
-            <Particles id="tsparticles" options={herobanneroption} className="absolute inset-0">
+            <Particles id="tsparticles" options={herobanneroption} className="absolute bg-black inset-0">
         </Particles>
           )
 
         }
-        <div className={`absolute w-screen h-auto flex flex-col items-center justify-center  ${init? "" : "bg-black"}`}>
+        <div className={`absolute w-screen h-auto flex flex-col items-center justify-center  ${particle? "" : "bg-black"}`}>
         <Herobanner />
         <HackInfo />
         <Theme />
