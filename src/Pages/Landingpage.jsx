@@ -30,13 +30,15 @@ function Landingpage() {
   );
 
   return (
-    <>
 
-    {init && (
       <>
       <div className="relative w-screen h-screen">
-        <Particles id="tsparticles" options={herobanneroption} className="absolute inset-0">
+        {
+          init &&(
+            <Particles id="tsparticles" options={herobanneroption} className="absolute inset-0">
         </Particles>
+          )
+        }
         <div className="absolute w-screen h-auto flex flex-col items-center justify-center">
         <Herobanner />
         <HackInfo />
@@ -46,8 +48,7 @@ function Landingpage() {
       </div>
       
       </>
-    )}
-    </>
+
   )
 }
 
