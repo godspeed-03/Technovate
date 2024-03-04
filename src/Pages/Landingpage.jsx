@@ -44,7 +44,7 @@ function Landingpage() {
       <>
       <div className="relative w-screen h-screen">
         {
-          init && (
+          particle && (
             <Particles id="tsparticles" options={herobanneroption} className="absolute bg-black inset-0">
         </Particles>
           )
