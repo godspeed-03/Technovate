@@ -26,7 +26,7 @@ function Landingpage() {
   useEffect(() =>{
     if(setInit){
       setTimeout(() => {
-        setInit(true);
+        setParticle(true);
       }, 5000);
     }
 
