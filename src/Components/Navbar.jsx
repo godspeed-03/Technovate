@@ -4,7 +4,7 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
 
-const Navbar = ({colortype}) => {
+const Navbar = ({ colortype }) => {
   const navigate = useNavigate();
   const [mobile, setMobile] = useState(false);
 
@@ -12,7 +12,6 @@ const Navbar = ({colortype}) => {
     setMobile(false);
     navigate(`/${url}`);
   };
-  
 
   const openmobile = () => {
     setMobile(true);
@@ -25,19 +24,55 @@ const Navbar = ({colortype}) => {
       >
         <nav>
           <ul
-            className={`flex gap-3 md:flex text-${colortype ? 'balck' : 'white'} cursor-pointer  items-baseline justify-end   ${
+            className={`flex gap-3 md:flex text-${
+              colortype ? "balck" : "white"
+            } cursor-pointer  items-baseline justify-end   ${
               mobile
                 ? " bg-black/30 z-20 py-3 backdrop-filter backdrop-blur-sm rounded-3xl pl-10 visible flex-col top-[70px]  absolute left-0 w-full mr-10"
                 : "max-md:hidden pr-14"
             } `}
           >
-            <li className="mr-10 text-lg hover:underline " onClick={() => {handleclick('')}}>HOME</li>
-            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('register')}}>REGISTER</li>
-            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('mentors')}}>MENTOR</li>
-            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('judges')}}>JUDGES</li>
+            <li
+              className="mr-10 text-lg hover:underline "
+              onClick={() => {
+                handleclick("");
+              }}
+            >
+              HOME
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("register");
+              }}
+            >
+              REGISTER
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("mentors");
+              }}
+            >
+              MENTOR
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("judges");
+              }}
+            >
+              JUDGES
+            </li>
             {/* <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('/')}}>SPONSERS</li> */}
-            <li  className="mr-10 text-lg hover:underline" onClick={() => {handleclick('partners')}}>PARTNERS</li>
-            
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("partners");
+              }}
+            >
+              PARTNERS
+            </li>
           </ul>
         </nav>
         <div className="md:hidden">

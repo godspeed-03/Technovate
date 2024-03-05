@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
-  body{
-    background-color: black;
-  }
+body {
+  background-color: black;
+}

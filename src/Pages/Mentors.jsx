@@ -50,7 +50,7 @@ function Mentors() {
                   <Lottie
                     options={defaultOptions}
                     height={isMobile() ? 150 : 300}
-      width={isMobile() ? 150 : 300}
+                    width={isMobile() ? 150 : 300}
                   />
                 </div>
                 <div className="content  flex flex-col items-start justify-center gap-10">

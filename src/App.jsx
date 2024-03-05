@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Landingpage from './Pages/Landingpage';
-import Mentors from './Pages/Mentors';
-import Judges from './Pages/Judges';
-import Register from './Pages/Register';
-import Partner from './Pages/Partners';
-
+import Landingpage from "./Pages/Landingpage";
+import Mentors from "./Pages/Mentors";
+import Judges from "./Pages/Judges";
+import Register from "./Pages/Register";
+import Partner from "./Pages/Partners";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
         </Routes>
       </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
