@@ -10,7 +10,7 @@ const Herobanner = () => {
 
 
   <Navbar/>
-  <div className=" lg:w-[40vw] w-[70vw] z-10 h-screen bg-center bg-cover flex flex-col items-center  justify-center" style={{ backgroundImage: `url(${banner})` }}>    
+  <div className=" max-md:w-[100%] max-lg:px-3 w-[50%] z-10 h-screen bg-center bg-cover flex flex-col items-center  justify-center" style={{ backgroundImage: `url(${banner})` }}>    
     <div className='flex justify-center items-center'>
        <img src={Frame} alt="" />
     </div>

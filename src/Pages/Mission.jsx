@@ -16,11 +16,11 @@ function Mission() {
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
         
-      <div className="rounded-xl  p-14 w-[60%] h-auto border-2 border-white text-white">
-      <h1 className="text-white text-center text-2xl">Our Mission</h1>
-<div className="flex gap-10">
+      <div className="rounded-xl  max-lg:w-[80%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
+      <h1 className="text-5xl text-center font-heading pb-5 font-bold">Our Mission</h1>
+<div className="flex max-lg:flex-col-reverse flex-row gap-10">
 <div className="content  flex flex-col items-start justify-center gap-10">
-            <p>
+            <p className="font-content font-light text-base">
             Our mission is simple yet profound: to challenge participants to harness their creativity, coding skills, and teamwork to solve real-world problems. We believe in the transformative power of collaboration and coding, and we aim to inspire the next generation of tech leaders.
 
             </p>
