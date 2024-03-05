@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "../assets/Register.json";
+import animationData from "../assets/Partner.json";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "./hackinfo.css";
 import Navbar from "../Components/Navbar";
@@ -16,7 +16,7 @@ function Partner() {
   };
 
   const openGoogleForm = () => {
-    window.open("https://forms.gle/BN8xFmovTXo49zRD7", "_blank");
+    window.open("https://forms.gle/3Afa4ERR6wFeq6tH9", "_blank");
   };
 
   const isMobile = () => {
@@ -33,7 +33,7 @@ function Partner() {
           <div className="flex flex-col gap-10">
             <div className="content">
               <h1 className="max-md:text-3xl text-5xl text-center text-white pb-10 font-heading font-bold">
-                Partner
+                Call for Community Partners
               </h1>
               <div className="flex flex-col gap-10">
                 <div className="gif flex  items-center justify-center">
@@ -58,10 +58,17 @@ function Partner() {
                     </strong>{" "}
                     Engage with a diverse pool of talent, including students,
                     professionals, and entrepreneurs, to identify potential
-                    collaborators or future employees. Showcase Expertise: Share
-                    your expertise through mentorship or workshops, positioning
-                    your organization as a thought leader in your field.
+                    collaborators or future employees.
                   </p>
+                  <p className="font-content font-light max-md:text-sm ">
+                    <strong className="font-bold font-heading text-xl">
+                      Showcase Expertise :
+                    </strong>{" "}
+                    Share your expertise through mentorship or workshops,
+                    positioning your organization as a thought leader in your
+                    field.
+                  </p>
+
                   <p className="font-content font-light max-md:text-sm ">
                     <strong className="font-bold font-heading text-xl">
                       Brand Visibility :
