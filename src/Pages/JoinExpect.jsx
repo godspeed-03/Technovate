@@ -38,7 +38,7 @@ function JoinExpect() {
       
 <div className="flex max-lg:flex-col flex-row gap-10">
   <div className="whyjoin border-2 border-white p-5 rounded-md">
-  <h1 className="text-3xl text-center font-heading font-bold">Why Join Us</h1>
+  <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">Why Join Us</h1>
   <div className="flex flex-col gap-5">
   <div className="gif flex  items-center justify-center">
   <Lottie
@@ -48,7 +48,7 @@ function JoinExpect() {
     />
         </div>
 <div className="content  flex items-start justify-center gap-10">
-            <p className="font-content font-light text-base">
+            <p className="font-content font-light max-md:text-sm max-lg:text-center">
             Join us to broaden your horizons, sharpen your skills, and make lifelong connections with like-minded individuals. Whether you're a seasoned coder or just getting started, the D4 Community's Hackathon at CGC Jhanjeri is the place to be.
 
 
@@ -60,7 +60,7 @@ function JoinExpect() {
 
   </div>
   <div className="expect   border-2 border-white p-5 rounded-md">
-  <h1 className="text-3xl text-center font-heading font-bold">What to Expect</h1>
+  <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">What to Expect</h1>
   <div className="flex flex-col gap-5">
   <div className="gif flex  items-center justify-center">
   <Lottie
@@ -70,7 +70,7 @@ function JoinExpect() {
     />
         </div>
 <div className="content  flex items-start justify-center">
-            <p className="font-content font-light ">
+            <p className="font-content font-light max-md:text-sm max-lg:text-center ">
             Expect an adrenaline-fueled 24 hours of non-stop coding, brainstorming, and networking. Participants will tackle exciting challenges, engage in workshops, and have the opportunity to win fantastic prizes.
             </p>
 

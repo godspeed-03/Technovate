@@ -15,17 +15,17 @@ function Theme() {
     <div className="z-10 w-screen flex justify-center items-center py-16">
       <div className=" rounded-xl relative border-2 border-white max-lg:p-8 p-14 w-[60%] max-lg:w-[80%] h-auto text-white">
         <div className="flex flex-col items-center justify-center gap-5">
-          <h1 className="text-5xl text-center font-heading font-bold">Theme</h1>
-          <p className="font-heading font-bold text-xl pt-3">
+          <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">Theme</h1>
+          <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3 text-center">
             Lorem ipsum dolor sit amet.Random Quote
           </p>
           <div className="flex gap-10">
             <div className=" flex max-lg:flex-col flex-row gap-10">
               <div className="Technical flex flex-col items-center justify-center gap-5 pt-10">
-                <h1 className="text-3xl text-center font-heading font-bold">
+                <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
                   Tech used
                 </h1>
-                <div className="flex flex-wrap justify-center gap-6">
+                <div className="flex flex-wrap justify-center gap-6 max-md:flex-col">
                   <a className="relative" href="#">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-white"></span>
                     <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-white bg-white px-3 py-1 text-base font-bold text-black transition duration-10 hover:bg-blue-500 dark:bg-transparent">

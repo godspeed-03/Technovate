@@ -6,7 +6,7 @@ import "./hackinfo.css";
 function List({ text }) {
   return (
     <>
-      <div className="w-[10%] flex items-center justify-start">
+      <div className="w-[10%] flex items-center  justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -24,7 +24,7 @@ function List({ text }) {
         </svg>
       </div>
       <div className="w-[90%]">
-        <p className='font-content font-light text-base'>{text}</p>
+        <p className='font-content font-light max-md:text-sm py-2'>{text}</p>
       </div>
     </>
   );
@@ -42,7 +42,7 @@ function EligibilityCriteria() {
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
       <div className="info rounded-xl relative bg-black max-lg:w-[80%] w-[60%] max-lg:p-8 p-14  text-white">
-          <h1 className="text-5xl text-center pb-5 font-heading font-bold">Eligibility Criteria</h1>
+          <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">Eligibility Criteria</h1>
 <div className="flex max-lg:flex-col flex-row gap-10">
 <div className="gif flex  items-center justify-center">
           <Lottie
