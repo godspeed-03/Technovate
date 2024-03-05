@@ -12,6 +12,8 @@ import Mission from './Mission';
 import JoinExpect from './JoinExpect';
 import StayTuned from './StayTuned';
 import ProblemS from './ProblemS';
+import { useParams } from 'react-router-dom';
+import Mentors from './Mentors';
 
 function Landingpage() {
 
@@ -55,6 +57,7 @@ function Landingpage() {
 
         }
         <div className={`absolute w-screen h-auto flex flex-col items-center justify-center  ${particle? "" : "bg-black"}`}>
+
         <Herobanner />
         <HackInfo />
         <Theme />
