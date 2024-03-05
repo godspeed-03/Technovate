@@ -88,7 +88,7 @@ function EligibilityCriteria() {
             </li>
             <li className="flex gap-3">
               <List
-                text={"The participants must form a team of 3-4 students."}
+                text={"The participants must form a team of 2-4 students."}
               />
             </li>
           </ul>

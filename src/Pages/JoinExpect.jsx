@@ -71,7 +71,7 @@ function JoinExpect() {
         </div>
 <div className="content  flex items-start justify-center">
             <p className="font-content font-light max-md:text-sm max-lg:text-center ">
-            Expect an adrenaline-fueled 24 hours of non-stop coding, brainstorming, and networking. Participants will tackle exciting challenges, engage in workshops, and have the opportunity to win fantastic prizes.
+            Expect an adrenaline-fueled 24 hours of non-stop coding, brainstorming, and networking. Participants will tackle exciting challenges, engage in workshops, and have the opportunity to win fantastic prizes worth 20k.
             </p>
 
         </div>

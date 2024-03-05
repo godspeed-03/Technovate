@@ -33,10 +33,12 @@ navigate(`/${url}`)
             } `}
           >
             <li onClick={() => {handleclick('')}}>HOME</li>
-            <li onClick={() => {handleclick('/')}}>OBJECTIVE</li>
-            <li onClick={() => {handleclick('/')}}>SPEAKERS</li>
-            <li onClick={() => {handleclick('/')}}>SPONSORS</li>
+            <li onClick={() => {handleclick('/')}}>REGISTER</li>
+            <li onClick={() => {handleclick('/')}}>JUDGES</li>
+            <li onClick={() => {handleclick('/')}}>MENTOR</li>
+            {/* <li onClick={() => {handleclick('/')}}>SPONSERS</li> */}
             <li onClick={() => {handleclick('/')}}>PARTNERS</li>
+            {/* <li onClick={() => {handleclick('/')}}></li> */}
           </ul>
         </nav>
         <div className="md:hidden">
