@@ -21,7 +21,7 @@ function ProblemS() {
         <div className="flex max-lg:flex-col-reverse flex-row items-center justify-center gap-10">
           <div className="content  flex flex-col items-start justify-center gap-10">
             <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3 text-center">
-              Will be revealed on 10th Mrach...
+              Will be revealed on 10th March...
             </p>
           </div>
           <div className="gif flex  items-center justify-center">

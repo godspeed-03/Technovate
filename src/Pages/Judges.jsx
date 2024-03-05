@@ -69,7 +69,7 @@ function Judges() {
 </div>
 </div>
 <div className="faq flex flex-col gap-5">
-<h1 className="font-anta text-2xl">FAQ</h1>
+<h1 className="font-miami text-2xl">FAQ</h1>
             <Accordion>
               <AccordionItem>
                 <AccordionItemHeading className="font-heading font-medium max-md:text-sm max-lg:text-center">
@@ -136,10 +136,10 @@ function Judges() {
             </p>
             <div className="   flex items-center justify-center">
               <button
-                className="text-white bg-purple-900 rounded-md px-3 py-2  "
+                className="text-white bg-purple-900 rounded-md px-3 py-2  font-miami "
                 onClick={openGoogleForm}
               >
-                Click to register
+                Click to Register
               </button>
             </div>
             </div>

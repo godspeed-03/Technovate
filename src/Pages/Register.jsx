@@ -97,15 +97,7 @@ function Register() {
         </div>
     </div>
 </div>
-
-        <ul className="">
-
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3">Registration fee: $x</p>
+        <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3">Registration fee: Rs. 400</p>
 
         </div>
 
@@ -179,10 +171,10 @@ function Register() {
             </p>
             <div className="   flex items-center justify-center">
               <button
-                className="text-white bg-purple-900 rounded-md px-3 py-2  "
+                className="text-white bg-purple-900 rounded-md px-3 py-2 font-miami "
                 onClick={openGoogleForm}
               >
-                Click to register
+                Click to Register
               </button>
             </div>
             </div>
