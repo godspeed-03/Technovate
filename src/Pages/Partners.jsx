@@ -76,11 +76,16 @@ function Partner() {
                     Gain prominent recognition throughout the hackathon,
                     enhancing your brand's reputation and demonstrating your
                     commitment to innovation and community development.
-                    Networking Opportunities: Connect with like-minded
-                    individuals, potential partners, and industry experts,
-                    fostering valuable collaborations and business
-                    opportunities.
                   </p>
+                  <p className="font-content font-light max-md:text-sm ">
+                    <strong className="font-bold font-heading text-xl">
+                      Networking Opportunities :
+                    </strong>{" "}
+                    Connect with like-minded individuals, potential partners,
+                    and industry experts, fostering valuable collaborations and
+                    business opportunities.
+                  </p>
+
                   <p className="font-content font-light max-md:text-sm max-md:text-center ">
                     We believe your involvement will enrich the hackathon
                     experience and help us achieve our shared goals.
