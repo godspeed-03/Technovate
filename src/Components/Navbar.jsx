@@ -33,7 +33,7 @@ const Navbar = ({colortype}) => {
                 : "max-md:hidden pr-14"
             } `}
           >
-            <li className="mr-10 text-lg hover:underlin " onClick={() => {handleclick('')}}>HOME</li>
+            <li className="mr-10 text-lg hover:underline " onClick={() => {handleclick('')}}>HOME</li>
             <li className="mr-10 text-lg hover:underline" onClick={openGoogleForm}>REGISTER</li>
             <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('judges')}}>JUDGES</li>
             <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('mentors')}}>MENTOR</li>
