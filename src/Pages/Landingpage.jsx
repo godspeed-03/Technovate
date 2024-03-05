@@ -11,6 +11,7 @@ import EligibilityCriteria from './EligibilityCriteria';
 import Mission from './Mission';
 import JoinExpect from './JoinExpect';
 import StayTuned from './StayTuned';
+import ProblemS from './ProblemS';
 
 function Landingpage() {
 
@@ -58,6 +59,7 @@ function Landingpage() {
         <HackInfo />
         <Theme />
         <EligibilityCriteria />
+        <ProblemS />
         <Mission />
       <JoinExpect />
       <StayTuned />

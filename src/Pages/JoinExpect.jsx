@@ -34,10 +34,10 @@ function JoinExpect() {
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
         
-      <div className="info rounded-xl relative bg-black max-lg:w-[80%] w-[60%] max-lg:p-8 p-14  flex gap-10 text-white">
+      <div className="rounded-xl  max-lg:w-[80%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
       
 <div className="flex max-lg:flex-col flex-row gap-10">
-  <div className="whyjoin border-2 border-white p-5 rounded-md">
+  <div className="whyjoin info relative bg-black  p-5 rounded-xl">
   <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">Why Join Us</h1>
   <div className="flex flex-col gap-5">
   <div className="gif flex  items-center justify-center">
@@ -49,7 +49,7 @@ function JoinExpect() {
         </div>
 <div className="content  flex items-start justify-center gap-10">
             <p className="font-content font-light max-md:text-sm max-lg:text-center">
-            Join us to broaden your horizons, sharpen your skills, and make lifelong connections with like-minded individuals. Whether you're a seasoned coder or just getting started, the D4 Community's Hackathon at CGC Jhanjeri is the place to be.
+            Join us to broaden your horizons, sharpen your skills, and make lifelong connections with like-minded individuals. Whether you're a seasoned coder or just getting started, the Google Developer Students Club 24-hours Hackathon at UIET Chandigarh is the place to be.
 
 
             </p>
@@ -59,7 +59,7 @@ function JoinExpect() {
 </div>
 
   </div>
-  <div className="expect   border-2 border-white p-5 rounded-md">
+  <div className="expect   info relative bg-black  p-5 rounded-xl">
   <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">What to Expect</h1>
   <div className="flex flex-col gap-5">
   <div className="gif flex  items-center justify-center">
