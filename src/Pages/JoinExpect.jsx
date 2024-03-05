@@ -25,16 +25,14 @@ function JoinExpect() {
   };
 
   const isMobile = () => {
-    return window.innerWidth < 600; // Adjust the threshold as needed
+    return window.innerWidth < 400; // Adjust the threshold as needed
   };
-
-  console.log(isMobile())
 
 
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
         
-      <div className="rounded-xl  max-lg:w-[80%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
+      <div className="rounded-xl  max-lg:w-[90%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
       
 <div className="flex max-lg:flex-col flex-row gap-10">
   <div className="whyjoin info relative bg-black  p-5 rounded-xl">

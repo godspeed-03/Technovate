@@ -13,7 +13,7 @@ function Theme() {
   };
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
-      <div className=" rounded-xl relative border-2 border-white max-lg:p-8 p-14 w-[60%] max-lg:w-[80%] h-auto text-white">
+      <div className=" rounded-xl relative border-2 border-white max-lg:p-8 p-14 w-[60%] max-lg:w-[90%] h-auto text-white">
         <div className="flex flex-col items-center justify-center gap-5">
           <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">
             Theme

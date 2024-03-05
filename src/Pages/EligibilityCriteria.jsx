@@ -41,7 +41,7 @@ function EligibilityCriteria() {
   };
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
-      <div className="info rounded-xl relative bg-black max-lg:w-[80%] w-[60%] max-lg:p-8 p-14  text-white">
+      <div className="info rounded-xl relative bg-black max-lg:w-[90%] w-[60%] max-lg:p-8 p-14  text-white">
           <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">Eligibility Criteria</h1>
 <div className="flex max-lg:flex-col flex-row gap-10">
 <div className="gif flex  items-center justify-center">

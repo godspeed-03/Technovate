@@ -12,9 +12,7 @@ const Navbar = ({colortype}) => {
     setMobile(false);
     navigate(`/${url}`);
   };
-  const openGoogleForm = () => {
-    window.open("https://forms.gle/BN8xFmovTXo49zRD7", "_blank");
-  };
+  
 
   const openmobile = () => {
     setMobile(true);
@@ -29,14 +27,14 @@ const Navbar = ({colortype}) => {
           <ul
             className={`flex gap-3 md:flex text-${colortype ? 'balck' : 'white'} cursor-pointer  items-baseline justify-end   ${
               mobile
-                ? " bg-black/30 py-3 backdrop-filter backdrop-blur-sm rounded-3xl pl-10 visible flex-col top-[70px]  absolute left-0 w-full mr-10"
+                ? " bg-black/30 z-20 py-3 backdrop-filter backdrop-blur-sm rounded-3xl pl-10 visible flex-col top-[70px]  absolute left-0 w-full mr-10"
                 : "max-md:hidden pr-14"
             } `}
           >
             <li className="mr-10 text-lg hover:underline " onClick={() => {handleclick('')}}>HOME</li>
-            <li className="mr-10 text-lg hover:underline" onClick={openGoogleForm}>REGISTER</li>
-            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('judges')}}>JUDGES</li>
+            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('register')}}>REGISTER</li>
             <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('mentors')}}>MENTOR</li>
+            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('judges')}}>JUDGES</li>
             {/* <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('/')}}>SPONSERS</li> */}
             <li  className="mr-10 text-lg hover:underline" onClick={() => {handleclick('/')}}>PARTNERS</li>
             

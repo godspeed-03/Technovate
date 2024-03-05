@@ -43,7 +43,7 @@ function HackInfo() {
             scale: 1,
           }}
         >
-    <div className="info rounded-xl relative bg-black max-lg:w-[80%] w-[60%] max-lg:p-8 p-14 ">
+    <div className="info rounded-xl relative bg-black max-lg:w-[90%] w-[60%] max-lg:p-8 p-14 ">
       <h1 className='max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold'>Technovate</h1>
 <div className="flex max-lg:flex-col flex-row gap-10 text-white">
 <div className="gif flex items-center justify-center">

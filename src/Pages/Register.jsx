@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "../assets/Judges.json";
+import animationData from "../assets/Register.json";
 import {
   Accordion,
   AccordionItem,
@@ -12,7 +12,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import "./hackinfo.css";
 import Navbar from "../Components/Navbar";
 
-function Judges() {
+function Register() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -23,7 +23,7 @@ function Judges() {
   };
 
   const openGoogleForm = () => {
-    window.open("https://docs.google.com/forms/d/e/1FAIpQLScrLUfkXG61kcObysVcAfnh_FzsI8qOB0zBvwPWv4qfWNhfxg/viewform", "_blank");
+    window.open("https://forms.gle/BN8xFmovTXo49zRD7", "_blank");
   };
 
   const isMobile = () => {
@@ -32,15 +32,15 @@ function Judges() {
 
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex z-10 items-center justify-center">
         <Navbar />
       </div>
-      <div className="z-10 flex justify-center items-center max-md:py-3 py-16">
+      <div className=" flex justify-center items-center max-md:py-3 py-16">
         <div className="info rounded-xl relative bg-black max-lg:w-[90%] w-[60%] max-lg:p-8 p-14  flex gap-10 text-white">
 <div className="flex flex-col gap-10">
 <div className="content">
-<h1 className="max-md:text-3xl text-5xl text-center text-white pb-10 font-heading font-bold">CALL FOR JUDGES</h1>
-<div className="flex max-lg:flex-col flex-row gap-10">
+<h1 className="max-md:text-3xl text-5xl text-center text-white pb-10 font-heading font-bold">Register</h1>
+<div className="flex flex-col gap-10">
 <div className="gif flex  items-center justify-center">
           <Lottie
             options={defaultOptions}
@@ -48,31 +48,74 @@ function Judges() {
       width={isMobile() ? 150 : 300}
           />
         </div>
-<div className="content  flex flex-col items-start justify-center gap-10">
-            <p className="font-content font-light max-md:text-sm max-lg:text-center">
-            Our judges are not just experts; they're visionaries who evaluate
-              the projects created by our brilliant participants. They provide
-              valuable feedback and play an essential role in recognizing and
-              celebrating exceptional contributions within the hackathon.
-              ​They're the ones who get a front-row seat to the future of tech,
-              analyzing solutions, and recognizing the coding gems that emerge.
-              ​So, if you're passionate about coding ,sharing knowledge,and want
-              to be part of a lively community, think about becoming a judge at
-              Technovate. ​It's more than a role; it's an invitation to be at
-              the forefront of a community driven intiative to empower
-              tomorrow's builders.
+<div className="content flex flex-col gap-5 ">
+<h1 className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3 text-center">Unleashing Heroic Innovation: The Avengers Hackathon for a Better World</h1>
+        <p className="font-content font-light max-md:text-sm max-lg:text-center">Join us for an exhilarating 24-Hour Hackathon where teams will compete to develop innovative solutions in
+            the realms of data science, machine learning, and blockchain. This is your chance to be part of a heroic
+            endeavor to create a better world through technology!</p>
+        <p className="font-content font-light max-md:text-sm ">The event will feature:</p>
 
-            </p>
+        <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+    <div class="p-2  w-full">
+        <div class=" rounded flex  h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="font-content font-normal max-md:text-sm ">Intense coding challenges</span>
+        </div>
+    </div>
+    <div class="p-2 w-full">
+        <div class=" rounded flex h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="font-content font-normal max-md:text-sm ">Collaborative teamwork</span>
+        </div>
+    </div>
+    <div class="p-2 w-full">
+        <div class=" rounded flex h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="font-content font-normal max-md:text-sm ">Opportunities to network with industry professionals</span>
+        </div>
+    </div>
+    <div class="p-2 w-full">
+        <div class=" rounded flex h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="font-content font-normal max-md:text-sm ">Exciting prizes for winning teams</span>
+        </div>
+    </div>
+</div>
+
+        <ul className="">
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3">Registration fee: $x</p>
 
         </div>
 
 </div>
 </div>
-<div className="faq flex flex-col gap-5">
+{/* <div className="faq flex flex-col gap-5">
 <h1 className="font-anta text-2xl">FAQ</h1>
             <Accordion>
               <AccordionItem>
-                <AccordionItemHeading className="font-heading font-medium max-md:text-sm max-lg:text-center">
+                <AccordionItemHeading className="font-heading font-normal max-md:text-sm max-lg:text-center">
                   <AccordionItemButton>
                     Will travel allowances be provided?
                   </AccordionItemButton>
@@ -87,7 +130,7 @@ function Judges() {
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
-                <AccordionItemHeading className="font-heading font-medium max-md:text-sm max-lg:text-center">
+                <AccordionItemHeading className="font-heading font-normal max-md:text-sm max-lg:text-center">
                   <AccordionItemButton>
                     What about accommodation?
                   </AccordionItemButton>
@@ -95,13 +138,13 @@ function Judges() {
                 <AccordionItemPanel>
                   <p className="font-content font-light max-md:text-sm max-lg:text-center">
                     Since Technovate is going to be a 24 hour hackathon, the
-                    Judges will be present at the final rounds of the hackathon,
+                    Register will be present at the final rounds of the hackathon,
                     we won’t be providing accommodation for the same.
                   </p>
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
-                <AccordionItemHeading className="font-heading font-medium max-md:text-sm max-lg:text-center">
+                <AccordionItemHeading className="font-heading font-normal max-md:text-sm max-lg:text-center">
                   <AccordionItemButton>What about food?</AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -112,9 +155,9 @@ function Judges() {
                 </AccordionItemPanel>
               </AccordionItem>
               <AccordionItem>
-                <AccordionItemHeading className="font-heading font-medium max-md:text-sm max-lg:text-center">
+                <AccordionItemHeading className="font-heading font-normal max-md:text-sm max-lg:text-center">
                   <AccordionItemButton>
-                    Will judges receive compensation for their judging and
+                    Will Register receive compensation for their judging and
                     guidance?
                   </AccordionItemButton>
                 </AccordionItemHeading>
@@ -127,7 +170,7 @@ function Judges() {
                 </AccordionItemPanel>
               </AccordionItem>
             </Accordion>
-</div>
+</div> */}
             <div className="contact flex flex-col gap-5">
             <p className="font-content font-light max-md:text-sm max-lg:text-center">
             Feel free to reach out us at <strong className="font-semibold"> dsc.uiet.pu@gmail.com </strong> if you have any
@@ -150,4 +193,4 @@ function Judges() {
   );
 }
 
-export default Judges;
+export default Register;
