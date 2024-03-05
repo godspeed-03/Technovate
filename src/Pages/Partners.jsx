@@ -155,8 +155,8 @@ function Partner() {
 </div> */}
             <div className="contact flex flex-col gap-5">
               <p className="font-content font-light max-md:text-sm max-lg:text-center">
-                Feel free to reach out us at
-                <strong className="font-semibold">dsc.uiet.pu@gmail.com</strong>
+                Feel free to reach out us at{" "}
+                <strong className="font-semibold">dsc.uiet.pu@gmail.com</strong>{" "}
                 if you have any more questions or need further information.
                 We're excited to have you be a part of our event!
               </p>
