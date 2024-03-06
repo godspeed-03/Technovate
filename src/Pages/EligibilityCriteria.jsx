@@ -24,7 +24,7 @@ function List({ text }) {
         </svg>
       </div>
       <div className="w-[90%]">
-        <p className='font-content font-light max-md:text-sm py-2'>{text}</p>
+        <p className="font-content font-light max-md:text-sm py-2">{text}</p>
       </div>
     </>
   );
@@ -41,59 +41,61 @@ function EligibilityCriteria() {
   };
   return (
     <div className="z-10 w-screen flex justify-center items-center py-16">
-      <div className="info rounded-xl relative bg-black max-lg:w-[80%] w-[60%] max-lg:p-8 p-14  text-white">
-          <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">Eligibility Criteria</h1>
-<div className="flex max-lg:flex-col flex-row gap-10">
-<div className="gif flex  items-center justify-center">
-          <Lottie
-            options={defaultOptions}
-            height={300} // Adjust height as needed
-            width={300} // Adjust width as needed
-          />
+      <div className="info rounded-xl relative bg-black max-lg:w-[90%] w-[60%] max-lg:p-8 p-14  text-white">
+        <h1 className="max-md:text-3xl text-5xl text-center text-white pb-5 font-heading font-bold">
+          Eligibility Criteria
+        </h1>
+        <div className="flex max-lg:flex-col flex-row gap-10">
+          <div className="gif flex  items-center justify-center">
+            <Lottie
+              options={defaultOptions}
+              height={300} // Adjust height as needed
+              width={300} // Adjust width as needed
+            />
+          </div>
+          <div className="content  flex flex-col items-start justify-center gap-10">
+            <ul className="mt-3 flex flex-col space-y-2">
+              <li className="flex gap-3">
+                <List
+                  text={
+                    "Hackathon is open to all Indian science, technology and engineering students pursuing undergraduate degrees."
+                  }
+                />
+              </li>
+              <li className="flex gap-3">
+                <List
+                  text={
+                    "All team members must be enrolled in any academic course."
+                  }
+                />
+              </li>
+              <li className="flex gap-3">
+                <List
+                  text={"Team members can be from different academic years."}
+                />
+              </li>
+              <li className="flex gap-3">
+                <List
+                  text={
+                    "Team members could be from any of the technology streams."
+                  }
+                />
+              </li>
+              <li className="flex gap-3">
+                <List
+                  text={
+                    "Once teams have registered, changes in team members will not be encouraged."
+                  }
+                />
+              </li>
+              <li className="flex gap-3">
+                <List
+                  text={"The participants must form a team of 2-4 students."}
+                />
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="content  flex flex-col items-start justify-center gap-10">
-          <ul className="mt-3 flex flex-col space-y-2">
-            <li className="flex gap-3">
-              <List
-                text={
-                  "Hackathon is open to all Indian science, technology and engineering students pursuing undergraduate degrees."
-                }
-              />
-            </li>
-            <li className="flex gap-3">
-              <List
-                text={
-                  "All team members must be enrolled in any academic course."
-                }
-              />
-            </li>
-            <li className="flex gap-3">
-              <List
-                text={"Team members can be from different academic years."}
-              />
-            </li>
-            <li className="flex gap-3">
-              <List
-                text={
-                  "Team members could be from any of the technology streams."
-                }
-              />
-            </li>
-            <li className="flex gap-3">
-              <List
-                text={
-                  "Once teams have registered, changes in team members will not be encouraged."
-                }
-              />
-            </li>
-            <li className="flex gap-3">
-              <List
-                text={"The participants must form a team of 3-4 students."}
-              />
-            </li>
-          </ul>
-        </div>
-</div>
       </div>
     </div>
   );

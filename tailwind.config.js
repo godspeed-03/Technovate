@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       content: ["Poppins"],
       heading : ["Anta"],
+      miami: ["Madimi One"],
     },
   },
   plugins: [],

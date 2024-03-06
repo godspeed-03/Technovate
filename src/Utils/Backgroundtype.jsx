@@ -43,11 +43,14 @@ export const herobanner = {
         speed: 1,
       },
       bounce: { distance: 200 },
-      bubble: { distance: 200, duration: 0.4, mix: false,
+      bubble: {
+        distance: 200,
+        duration: 0.4,
+        mix: false,
         opacity: 0.8,
         size: 40,
         divs: { distance: 200, duration: 0.4, mix: false, selectors: [] },
-       },
+      },
       connect: { distance: 80, links: { opacity: 0.5 }, radius: 60 },
       grab: {
         distance: 100,

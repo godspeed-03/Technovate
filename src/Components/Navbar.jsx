@@ -4,16 +4,14 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
 
-
-const Navbar = () => {
-  const navigate= useNavigate()
+const Navbar = ({ colortype }) => {
+  const navigate = useNavigate();
   const [mobile, setMobile] = useState(false);
 
-  const handleclick =(url) => {
-setMobile(false);
-console.log()
-navigate(`/${url}`)
-  }
+  const handleclick = (url) => {
+    setMobile(false);
+    navigate(`/${url}`);
+  };
 
   const openmobile = () => {
     setMobile(true);
@@ -21,32 +19,70 @@ navigate(`/${url}`)
   return (
     <>
       <div
-        className={`Navbar z-20 lg:w-[50%] w-[80%] flex items-center justify-center rounded-full py-5 mt-3 bg-white/30 backdrop-filter backdrop-blur-sm
-    ${mobile ?"" : ""}`}
+        className={`Navbar lg:w-[50%] w-[90%] flex items-baseline justify-end text-lg bg-transparent rounded-full py-5 mt-3 font-miami  bottom-2
+    ${mobile ? " " : " "}`}
       >
         <nav>
           <ul
-            className={`flex gap-3 md:flex text-white cursor-pointer  items-start   ${
+            className={`flex gap-3 md:flex text-${
+              colortype ? "balck" : "white"
+            } cursor-pointer  items-baseline justify-end   ${
               mobile
-                ? " bg-white/30 py-3 backdrop-filter backdrop-blur-sm rounded-3xl pl-10 visible flex-col top-[70px]  absolute left-0 w-full "
-                : "max-md:hidden"
+                ? " bg-black/30 z-20 py-3 backdrop-filter backdrop-blur-sm rounded-3xl pl-10 visible flex-col top-[70px]  absolute left-0 w-full mr-10"
+                : "max-md:hidden pr-14"
             } `}
           >
-            <li onClick={() => {handleclick('')}}>HOME</li>
-            <li onClick={() => {handleclick('/')}}>OBJECTIVE</li>
-            <li onClick={() => {handleclick('/')}}>SPEAKERS</li>
-            <li onClick={() => {handleclick('/')}}>SPONSORS</li>
-            <li onClick={() => {handleclick('/')}}>PARTNERS</li>
+            <li
+              className="mr-10 text-lg hover:underline "
+              onClick={() => {
+                handleclick("");
+              }}
+            >
+              HOME
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("register");
+              }}
+            >
+              REGISTER
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("mentors");
+              }}
+            >
+              MENTOR
+            </li>
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("judges");
+              }}
+            >
+              JUDGES
+            </li>
+            {/* <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('/')}}>SPONSERS</li> */}
+            <li
+              className="mr-10 text-lg hover:underline"
+              onClick={() => {
+                handleclick("partners");
+              }}
+            >
+              PARTNERS
+            </li>
           </ul>
         </nav>
         <div className="md:hidden">
           {mobile ? (
             <span className="" onClick={() => setMobile(false)}>
-              <IoIosCloseCircleOutline size={25} />
+              <IoIosCloseCircleOutline color="white" size={25} />
             </span>
           ) : (
             <span className="" onClick={() => openmobile()}>
-              <GiHamburgerMenu size={25} />
+              <GiHamburgerMenu color="white" size={25} />
             </span>
           )}
         </div>
