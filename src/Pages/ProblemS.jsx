@@ -2,8 +2,10 @@ import React from "react";
 import Lottie from "react-lottie";
 import animationData from "../assets/ProblemS.json";
 import "./hackinfo.css";
+import { useNavigate } from "react-router-dom";
 
 function ProblemS() {
+  const navigate = useNavigate()
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -23,12 +25,12 @@ function ProblemS() {
             <p className="font-heading font-bold max-md:text-lg max-md:font-semibold text-xl pt-3 text-center">
               Will be revealed on 10th March...
             </p>
-            <a href="https://forms.gle/BN8xFmovTXo49zRD7" target="_blank" className="relative">
+            <span onClick={() => {navigate('/register')}} className="relative">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-yellow-400  "></span>
                     <span className="fold-bold font-heading relative inline-block h-full w-full rounded border-2 border-blue-500  px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-[#6E1ED4]  hover:border-white dark:bg-transparent">
                       Register Now
                     </span>
-                  </a>
+                  </span>
           </div>
           <div className="gif flex  items-center justify-center">
             <Lottie
