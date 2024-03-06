@@ -148,7 +148,7 @@ Prerequisite
                           <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
                         <span class="font-content  max-md:text-sm ">
-                        Paid Internship opportunity for developers role for the winners.
+                        Paid Internship opportunities for the winners.
                         </span>
                       </div>
                     </div>
