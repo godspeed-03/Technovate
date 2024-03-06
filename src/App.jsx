@@ -1,6 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landingpage from './Pages/Landingpage';
+import JoinForm from './Pages/JoinForm';
+import JoinExpect from './Pages/JoinExpect';
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Landingpage />} />
+          <Route exact path="/" element={<JoinForm/>} />
         </Routes>
       </Router>
     </>
