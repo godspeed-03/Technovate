@@ -31,10 +31,8 @@ function JoinExpect() {
     <div className="z-10 w-screen flex justify-center items-center py-16">
       <div className="rounded-xl  max-lg:w-[90%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
         <div className="flex max-lg:flex-col flex-row gap-10">
-          <div className="whyjoin info relative bg-black  p-5 rounded-xl">
-            <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
-              Why Join Us
-            </h1>
+          <div className="whyjoin  lg:w-1/2 info relative bg-black  p-5 rounded-xl">
+
             <div className="flex flex-col gap-5">
               <div className="gif flex  items-center justify-center">
                 <Lottie
@@ -43,6 +41,9 @@ function JoinExpect() {
                   width={isMobile() ? 150 : 300}
                 />
               </div>
+              <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
+              Why Join Us
+            </h1>
               <div className="content  flex items-start justify-center gap-10">
                 <p className="font-content font-light max-md:text-sm max-lg:text-center">
                   Join us to broaden your horizons, sharpen your skills, and
@@ -54,10 +55,8 @@ function JoinExpect() {
               </div>
             </div>
           </div>
-          <div className="expect   info relative bg-black  p-5 rounded-xl">
-            <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
-              What to Expect
-            </h1>
+          <div className="expect lg:w-1/2  info relative bg-black  p-5 rounded-xl">
+
             <div className="flex flex-col gap-5">
               <div className="gif flex  items-center justify-center">
                 <Lottie
@@ -66,9 +65,12 @@ function JoinExpect() {
                   width={isMobile() ? 150 : 300}
                 />
               </div>
-              <div className="content  flex items-start justify-center">
-                <p className="font-content font-light max-md:text-sm max-lg:text-center ">
 
+              <div className="content  flex flex-col gap-5">
+<div className="flex flex-col border p-1 border-white rounded-md">
+<h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
+Prerequisite
+            </h1>
                 <div class="p-2  w-full">
                       <div class=" rounded flex  h-full ">
                         <svg
@@ -107,6 +109,11 @@ function JoinExpect() {
                         </span>
                       </div>
                     </div>
+</div>
+                    <div className="flex flex-col p-1 border-white border rounded-md">
+                    <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
+                    What to Expect
+            </h1>
                     <div class="p-2  w-full">
                       <div class=" rounded flex  h-full ">
                         <svg
@@ -145,9 +152,9 @@ function JoinExpect() {
                         </span>
                       </div>
                     </div>
+                    </div>
 
 
-                </p>
               </div>
             </div>
           </div>
