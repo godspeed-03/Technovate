@@ -19,7 +19,7 @@ const Navbar = ({ colortype }) => {
   return (
     <>
       <div
-        className={`Navbar lg:w-[50%] w-[90%] flex items-baseline justify-end text-lg bg-transparent rounded-full py-5 mt-3 font-miami  bottom-2
+        className={`Navbar z-20 fixed top-0 left-auto md:bg-black/30 md:backdrop-filter md:backdrop-blur-sm rounded-3xl lg:w-[50%] w-[90%] h-14 flex items-baseline justify-end text-lg py-5 mt-1 font-miami  bottom-2
     ${mobile ? " " : " "}`}
       >
         <nav>

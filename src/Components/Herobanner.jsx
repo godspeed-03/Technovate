@@ -6,9 +6,9 @@ import banner from "../assets/banner.png";
 const Herobanner = () => {
   return (
     <>
-      <Navbar text={"white"} />
+      <Navbar />
       <div
-        className="max-md:w-[100%] max-lg:px-3 w-[50%] z-10 h-screen bg-center bg-cover flex flex-col items-center  justify-center"
+        className="max-md:w-[100%] md:mt-14 mt-1 max-lg:px-3 w-[50%] z-10 h-screen bg-center bg-cover flex flex-col items-center  justify-center"
         style={{ backgroundImage: `url(${banner})` }}
       >
         <div className="flex justify-center items-center">
