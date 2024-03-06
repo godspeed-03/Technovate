@@ -31,19 +31,19 @@ function Theme() {
                 <div className="flex flex-wrap items-center justify-center gap-6 max-md:flex-col">
                   <a className="relative" href="">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-[#6E1ED4]"></span>
-                    <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-white bg-white px-3 py-1 text-base font-bold text-black transition duration-10 hover:bg-blue-500 dark:bg-transparent">
+                    <span className="fold-bold font-miami relative inline-block h-full w-full rounded border-2 border-white bg-white px-3 py-1 text-base font-bold text-black transition duration-10 hover:bg-blue-500 dark:bg-transparent">
                       Blockchain
                     </span>
                   </a>
                   <a href="" className="relative">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-blue-500"></span>
-                    <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-white bg-blue-500 px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-white dark:bg-transparent">
+                    <span className="fold-bold font-miami relative inline-block h-full w-full rounded border-2 border-white bg-blue-500 px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-white dark:bg-transparent">
                       Machine Learning
                     </span>
                   </a>
                   <a href="" className="relative">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-[#B45AA1]"></span>
-                    <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-white bg-blue-500 px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-blue-500 dark:bg-transparent">
+                    <span className="fold-bold font-miami relative inline-block h-full w-full rounded border-2 border-white bg-blue-500 px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-blue-500 dark:bg-transparent">
                       Data Science
                     </span>
                   </a>
