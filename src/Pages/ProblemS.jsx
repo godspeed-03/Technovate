@@ -25,7 +25,7 @@ function ProblemS() {
             </p>
             <a href="https://forms.gle/BN8xFmovTXo49zRD7" target="_blank" className="relative">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-yellow-400  "></span>
-                    <span className="fold-bold font-miami relative inline-block h-full w-full rounded border-2 border-blue-500  px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-[#6E1ED4]  hover:border-white dark:bg-transparent">
+                    <span className="fold-bold font-heading relative inline-block h-full w-full rounded border-2 border-blue-500  px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-[#6E1ED4]  hover:border-white dark:bg-transparent">
                       Register Now
                     </span>
                   </a>
