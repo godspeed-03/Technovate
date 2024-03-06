@@ -68,10 +68,85 @@ function JoinExpect() {
               </div>
               <div className="content  flex items-start justify-center">
                 <p className="font-content font-light max-md:text-sm max-lg:text-center ">
-                  Expect an adrenaline-fueled 24 hours of non-stop coding,
-                  brainstorming, and networking. Participants will tackle
-                  exciting challenges, engage in workshops, and have the
-                  opportunity to win fantastic prizes worth 20k.
+
+                <div class="p-2  w-full">
+                      <div class=" rounded flex  h-full ">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="font-content font-normal max-md:text-sm ">
+                        Registration fees : Rs. 400 / team
+                        </span>
+                      </div>
+                    </div>
+                    <div class="p-2  w-full">
+                      <div class=" rounded flex  h-full ">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="font-content font-normal max-md:text-sm ">
+                        Team of 2-4 members
+                        </span>
+                      </div>
+                    </div>
+                    <div class="p-2  w-full">
+                      <div class=" rounded flex  h-full ">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="font-content font-normal max-md:text-sm ">
+                        Rewards : Prize pool 20k
+                        </span>
+                      </div>
+                    </div>
+                    <div class="p-2  w-full">
+                      <div class=" rounded flex  h-full ">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="3"
+                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="font-content font-normal max-md:text-sm ">
+                        Paid Internship opportunity for developers role for the winners.
+                        </span>
+                      </div>
+                    </div>
+
+
                 </p>
               </div>
             </div>
