@@ -14,7 +14,7 @@ function List({ text }) {
           strokeWidth="1.5"
           stroke="currentColor"
           aria-hidden="true"
-          className="mr-2 h-auto w-6 text-white sm:w-7"
+          className="mr-2 h-auto w-6 text-indigo-500 sm:w-7"
         >
           <path
             strokeLinecap="round"
