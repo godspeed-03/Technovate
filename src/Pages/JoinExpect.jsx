@@ -83,7 +83,7 @@ function JoinExpect() {
                           <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                           <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
-                        <span class="font-content font-normal max-md:text-sm ">
+                        <span class="font-content  max-md:text-sm ">
                         Registration fees : Rs. 400 / team
                         </span>
                       </div>
@@ -102,7 +102,7 @@ function JoinExpect() {
                           <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                           <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
-                        <span class="font-content font-normal max-md:text-sm ">
+                        <span class="font-content  max-md:text-sm ">
                         Team of 2-4 members
                         </span>
                       </div>
@@ -121,7 +121,7 @@ function JoinExpect() {
                           <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                           <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
-                        <span class="font-content font-normal max-md:text-sm ">
+                        <span class="font-content  max-md:text-sm ">
                         Rewards : Prize pool 20k
                         </span>
                       </div>
@@ -140,7 +140,7 @@ function JoinExpect() {
                           <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                           <path d="M22 4L12 14.01l-3-3"></path>
                         </svg>
-                        <span class="font-content font-normal max-md:text-sm ">
+                        <span class="font-content  max-md:text-sm ">
                         Paid Internship opportunity for developers role for the winners.
                         </span>
                       </div>
