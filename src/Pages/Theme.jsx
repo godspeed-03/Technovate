@@ -44,7 +44,7 @@ function Theme() {
                   <span href="" className="relative">
                     <span className="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-[#B45AA1]"></span>
                     <span className="fold-bold font-heading relative inline-block h-full w-full rounded border-2 border-white bg-blue-500 px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-blue-500 dark:bg-transparent">
-                      Data Science
+                      Web Development
                     </span>
                   </span>
                 </div>
