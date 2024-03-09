@@ -1,6 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 import expectanimation from "../assets/expect.json";
+import limitedOfferData from "../assets/limitedTime.json";
 import JoinUsanimation from "../assets/JoinUs.json";
 import "./hackinfo.css";
 
@@ -9,6 +10,15 @@ function JoinExpect() {
     loop: true,
     autoplay: true,
     animationData: JoinUsanimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const limitedTimeOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: limitedOfferData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -28,24 +38,24 @@ function JoinExpect() {
   };
 
   return (
-    <div className="z-10 w-screen flex justify-center items-center py-16">
+    <div className="z-10 flex items-center justify-center w-screen py-16">
       <div className="rounded-xl  max-lg:w-[90%] w-[60%] max-lg:p-8 p-14 border-2 border-white text-white">
-        <div className="flex max-lg:flex-col flex-row gap-10">
-          <div className="whyjoin  lg:w-1/2 info relative bg-black  p-5 rounded-xl">
+        <div className="flex flex-row gap-10 max-lg:flex-col">
+          <div className="relative p-5 bg-black whyjoin lg:w-1/2 info rounded-xl">
 
             <div className="flex flex-col gap-5">
-              <div className="gif flex  items-center justify-center">
+              <div className="flex items-center justify-center gif">
                 <Lottie
                   options={defaultjoin}
                   height={isMobile() ? 150 : 300}
                   width={isMobile() ? 150 : 300}
                 />
               </div>
-              <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
-              Why Join Us
-            </h1>
-              <div className="content  flex items-start justify-center gap-10">
-                <p className="font-content font-light max-md:text-sm max-lg:text-center">
+              <h1 className="pb-5 text-3xl font-bold text-center text-white max-md:text-xl font-heading">
+                Why Join Us
+              </h1>
+              <div className="flex items-start justify-center gap-10 content">
+                <p className="font-light font-content max-md:text-sm max-lg:text-center">
                   Join us to broaden your horizons, sharpen your skills, and
                   make lifelong connections with like-minded individuals.
                   Whether you're a seasoned coder or just getting started, the
@@ -55,10 +65,10 @@ function JoinExpect() {
               </div>
             </div>
           </div>
-          <div className="expect lg:w-1/2  info relative bg-black  p-5 rounded-xl">
+          <div className="relative p-5 bg-black expect lg:w-1/2 info rounded-xl">
 
             <div className="flex flex-col gap-5">
-              <div className="gif flex  items-center justify-center">
+              <div className="flex items-center justify-center gif">
                 <Lottie
                   options={defaultexpect}
                   height={isMobile() ? 150 : 300}
@@ -66,93 +76,100 @@ function JoinExpect() {
                 />
               </div>
 
-              <div className="content  flex flex-col gap-5">
-<div className="flex flex-col border p-1 border-white rounded-md">
-<h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
-Prerequisite
-            </h1>
-                <div class="p-2  w-full">
-                      <div class=" rounded flex  h-full ">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="3"
-                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                          <path d="M22 4L12 14.01l-3-3"></path>
-                        </svg>
-                        <span class="font-content  max-md:text-sm ">
-                        Registration fees : Rs. 400 / team
+              <div className="flex flex-col gap-5 content">
+                <div className="flex flex-col p-1 border border-white rounded-md">
+                  <h1 className="pb-5 text-3xl font-bold text-center text-white max-md:text-xl font-heading">
+                    Prerequisite
+                  </h1>
+                  <div className="w-full p-2">
+                    <div className="flex h-full rounded ">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span className="relative font-content max-md:text-sm">
+                        Registration fee: Rs. <strike>400</strike> 200 / Team
+                        <span className="absolute left-12">
+                          <Lottie
+                            options={limitedTimeOptions}
+                            height={25}
+                            width={25}
+                          />
                         </span>
-                      </div>
+                      </span>
                     </div>
-                    <div class="p-2  w-full">
-                      <div class=" rounded flex  h-full ">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="3"
-                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                          <path d="M22 4L12 14.01l-3-3"></path>
-                        </svg>
-                        <span class="font-content  max-md:text-sm ">
+                  </div>
+                  <div className="w-full p-2">
+                    <div className="flex h-full rounded ">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span class="font-content  max-md:text-sm ">
                         Team of 2-4 members
-                        </span>
-                      </div>
+                      </span>
                     </div>
-</div>
-                    <div className="flex flex-col p-1 border-white border rounded-md">
-                    <h1 className="max-md:text-xl text-3xl text-center text-white pb-5 font-heading font-bold">
+                  </div>
+                </div>
+                <div className="flex flex-col p-1 border border-white rounded-md">
+                  <h1 className="pb-5 text-3xl font-bold text-center text-white max-md:text-xl font-heading">
                     What to Expect
-            </h1>
-                    <div class="p-2  w-full">
-                      <div class=" rounded flex  h-full ">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="3"
-                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                          <path d="M22 4L12 14.01l-3-3"></path>
-                        </svg>
-                        <span class="font-content  max-md:text-sm ">
-                        Rewards : Prize pool 20k
-                        </span>
-                      </div>
+                  </h1>
+                  <div className="w-full p-2">
+                    <div className="flex h-full rounded ">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span className="font-content max-md:text-sm ">
+                        Rewards : Prize pool 10k
+                      </span>
                     </div>
-                    <div class="p-2  w-full">
-                      <div class=" rounded flex  h-full ">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="3"
-                          class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                          <path d="M22 4L12 14.01l-3-3"></path>
-                        </svg>
-                        <span class="font-content  max-md:text-sm ">
+                  </div>
+                  <div className="w-full p-2">
+                    <div className="flex h-full rounded ">
+                      <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span class="font-content  max-md:text-sm ">
                         Paid Internship opportunities for the winners.
-                        </span>
-                      </div>
+                      </span>
                     </div>
-                    </div>
+                  </div>
+                </div>
 
 
               </div>
