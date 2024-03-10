@@ -82,7 +82,7 @@ function JoinExpect() {
                     Prerequisite
                   </h1>
                   <div className="w-full p-2">
-                    <div className="flex h-full rounded ">
+                    <div className="flex h-full rounded">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -95,15 +95,15 @@ function JoinExpect() {
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
-                      <span className="relative font-content max-md:text-sm">
+                      <span className="font-content max-md:text-sm">
                         Registration fee: Rs. <strike>400</strike> 200 / Team
-                        <span className="absolute left-12">
-                          <Lottie
-                            options={limitedTimeOptions}
-                            height={25}
-                            width={25}
-                          />
-                        </span>
+                      </span>
+                      <span>
+                        <Lottie
+                          options={limitedTimeOptions}
+                          height={isMobile() ? 35 : 45}
+                          width={isMobile() ? 30 : 40}
+                        />
                       </span>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ function JoinExpect() {
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
                       <span className="font-content max-md:text-sm ">
-                        Rewards : Prize pool 10k
+                        Rewards : Prize pool 15k
                       </span>
                     </div>
                   </div>

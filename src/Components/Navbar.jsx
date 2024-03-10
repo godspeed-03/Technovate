@@ -64,7 +64,7 @@ const Navbar = ({ colortype }) => {
             >
               JUDGES
             </li>
-            {/* <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('/')}}>SPONSERS</li> */}
+            <li className="mr-10 text-lg hover:underline" onClick={() => {handleclick('sponsors')}}>SPONSERS</li>
             <li
               className="mr-10 text-lg hover:underline"
               onClick={() => {
