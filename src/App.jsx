@@ -5,6 +5,7 @@ import Mentors from "./Pages/Mentors";
 import Judges from "./Pages/Judges";
 import Register from "./Pages/Register";
 import Partner from "./Pages/Partners";
+import Sponsors from "./Pages/Sponsors";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/mentors" element={<Mentors />} />
           <Route exact path="/judges" element={<Judges />} />
           <Route exact path="/partners" element={<Partner />} />
+          <Route exact path="/sponsors" element={<Sponsors />} />
         </Routes>
       </Router>
     </>

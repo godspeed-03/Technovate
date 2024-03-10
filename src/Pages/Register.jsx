@@ -180,8 +180,8 @@ function Register() {
                     <div className="absolute lg:top-0 lg:left-[calc(50%-40px)] top-10 left-12">
                       <Lottie
                         options={limitedTimeOptions}
-                        height={50}
-                        width={50}
+                        height={isMobile() ? 35 : 45}
+                        width={isMobile() ? 30 : 40}
                       />
                     </div>
                   </div>
