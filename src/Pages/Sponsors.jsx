@@ -42,14 +42,14 @@ const Sponsors = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-center gap-10 content max-lg:items-center">
                                     <div className="grid grid-cols-12 grid-rows-1 p-6 gap-x-3">
-                                        <img src={sponsor1} alt="" className='col-span-3 rounded-md' loading='lazy' />
+                                        <a target='_blank' href="https://www.instagram.com/octanefitness09?igsh=MXRrYnZ4OTNwN2hkag" className='col-span-3'><img src={sponsor1} alt="" className='rounded-md' loading='lazy' /></a>
                                         <div className='flex flex-col items-center col-span-3 justify-evenly'>
-                                            <img src={sponsor2} alt="" className='rounded-t' loading='lazy' />
+                                            <a target='_blank' href="https://www.instagram.com/icphub_uiet/"><img src={sponsor2} alt="" className='rounded-t' loading='lazy' /></a>
                                             <img src={sponsor5} alt="" loading='lazy'  />
-                                            <img src={sponsor2} alt="" className='rounded-b' loading='lazy' />
+                                            <a target='_blank' href="https://www.instagram.com/icphub_uiet/"><img src={sponsor2} alt="" className='rounded-b' loading='lazy' /></a>
                                         </div>
-                                        <img src={sponsor3} alt="" className='col-span-3 rounded-md' loading='lazy' />
-                                        <img src={sponsor4} alt="" className='col-span-3 rounded-md' loading='lazy' />
+                                        <a target='_blank' href="https://www.instagram.com/coding.ninjas?igsh=MXFyMHU5eHJmNjd1NQ==" className='col-span-3'><img src={sponsor3} alt="" className='rounded-md' loading='lazy' /></a>
+                                        <a target='_blank' href="https://install.spilz.in/d8Uu/7xzvgf55" className='col-span-3'><img src={sponsor4} alt="" className='rounded-md' loading='lazy' /></a>
                                     </div>
                                     {/* <div className="flex items-center justify-center gap-5 location">
                                         <a
