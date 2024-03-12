@@ -51,10 +51,10 @@ const Navbar = ({ colortype }) => {
             <li
               className="mr-10 text-lg hover:underline"
               onClick={() => {
-                handleclick("mentors");
+                handleclick("problems");
               }}
             >
-              MENTOR
+              PROBLEM
             </li>
             <li
               className="mr-10 text-lg hover:underline"

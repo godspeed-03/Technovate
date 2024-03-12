@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Blockchain-Powered Avengers Collaboration Platform",
+        "problem": "Develop a blockchain solution to enhance collaboration, communication, and resource management within the Avengers team, ensuring secure messaging, transparent mission planning, and immutable data integrity for effective superhero operations."
+    },
+    {
+        "title": "Predictive Analysis for Avengers Team Composition",
+        "problem": "Develop a machine learning model to analyze historical mission data and predict the optimal composition of the Avengers team for upcoming missions, considering factors such as individual strengths, team dynamics, and mission objectives, to enhance mission success rates and minimize casualties."
+    },
+    {
+        "title": "Avengers Character Recognition and Classification",
+        "problem": "Utilize data science techniques to develop a model capable of recognizing and classifying Avengers characters from images, enabling applications such as automated character tagging in fan art, comic book panel analysis, and character-based content recommendation systems."
+    },
+    {
+        "title": "Web challange",
+        "problem": "Develop a web platform that serves as a virtual Avengers headquarters, offering fans interactive experiences, challenges, and exclusive content to engage with the Avengers universe."
+    }
+]
