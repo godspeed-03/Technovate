@@ -1,8 +1,4 @@
-Verify
 
-Open In Editor
-Edit
-Copy code
 # React + Vite Project Documentation
 
 This project provides a minimal setup for building React applications using [Vite](https://vitejs.dev/), featuring Hot Module Replacement (HMR) and ESLint rules to ensure code quality.
